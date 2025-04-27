@@ -7,6 +7,6 @@ sudo apt install python3-pip
 echo export PATH=/usr/src/tensorrt/bin:$HOME/.local/bin:$PATH >> ~/.bashrc
 source ~/.bashrc
 
-cd /usr/src/tensorrt;sudo make
+cd /usr/src/tensorrt/samples;sudo make
 
 echo Open this link in a browser to downlaod - https://drive.google.com/drive/folders/1PgXZcadP5MHwsCwbzonJVQv7qK38FV7Z

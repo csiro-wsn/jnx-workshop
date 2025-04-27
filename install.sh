@@ -3,6 +3,7 @@ sudo apt install libopencv-dev wget
 sudo apt install ffmpeg fswebcam v4l-utils
 sudo apt install imagemagick
 sudo apt install python3-pip
+sudo apt-get install libcanberra-gtk*
 
 echo export PATH=/usr/src/tensorrt/bin:$HOME/.local/bin:$PATH >> ~/.bashrc
 source ~/.bashrc
